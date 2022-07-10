@@ -1,0 +1,8 @@
+X = int(input())
+rem =0
+sum =0
+while X:
+  rem = X%10
+  X = X//10
+  sum =sum + rem
+print(sum)
