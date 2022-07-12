@@ -1,0 +1,9 @@
+X = int(intput())
+rev=0
+while(X>0):
+  rem = X%10
+  rev = rev*10+rem
+  X=X//10
+print(rev)
+  
+   
