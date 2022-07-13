@@ -1,0 +1,10 @@
+N = int(input())
+arr = []
+min = 10000
+for i in range(0,N):
+    a = int(input())
+    arr.append(a)
+for i in arr:
+    if(i<min):
+        min=i
+print(arr.index(min))  
