@@ -1,0 +1,16 @@
+N = int(input())
+arr = []
+flag = -1
+for i in range(0,N):
+    a =int(input())
+    arr.append(a)
+print(arr)
+res = arr[::-1]
+print(res)
+for i in res:
+    if i==1:
+        flag= N-1- (res.index(i))
+        break
+print(flag)
+
+
