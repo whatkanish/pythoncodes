@@ -1,0 +1,11 @@
+N = int(input())
+arr = []
+k=1
+m=int()
+for i in range (0,N):
+    a = int(input())
+    arr.append(a)
+for i in arr:
+     k=k*i
+ 
+print(k)
