@@ -1,0 +1,17 @@
+n= int(input())
+m= int(input())
+t =[]
+for i in range(n):
+    u =[]
+    for j in range(m):
+        u.append(int(input()))
+    t.append(u)
+for i in range(n):
+    for j in range(m):
+        t[i][j]= t[i][j]*4
+for i in range(n):
+    for j in range(m):
+        print(t[i][j],end="")
+    print()
+        
+    
