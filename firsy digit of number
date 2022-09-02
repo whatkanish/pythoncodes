@@ -1,0 +1,6 @@
+n = int(input())
+rem = 0
+while(n>10):
+   rem =n%10
+   n = n//10
+ print(n)
