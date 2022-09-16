@@ -1,0 +1,17 @@
+t= int(input())
+while(t>0):
+  n=int(input())
+  rem=0
+  count=0
+  while(n!=0):
+    rem=n%10
+    n=n//10
+    if(rem==5):
+      count= count+1
+   print(count)
+   t-1
+   
+   
+   t==tect cases
+   n==integer input
+   
