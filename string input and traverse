@@ -1,0 +1,15 @@
+
+#for string
+
+str= input()
+print(str)
+
+
+#element
+
+for ele in str;
+print(str)
+
+
+
+#
