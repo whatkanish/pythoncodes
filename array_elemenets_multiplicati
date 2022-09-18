@@ -1,0 +1,6 @@
+T = int(input())
+n= int(input())
+while(n>0):
+ arr = list(map(int,input().split())
+
+ 
