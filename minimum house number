@@ -1,0 +1,16 @@
+t=int(input())
+while(t>0):
+ n= int(input)
+ ind=0
+ arr= list(intinput().split())
+ min=arr[0]
+ for i in range of(1,n):
+    if (arr[i]<min):
+    min =arr[i]
+    ind =i
+    print(ind)
+ t=t-1
+
+
+
+#testcase=t
