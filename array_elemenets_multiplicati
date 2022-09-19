@@ -2,5 +2,6 @@ T = int(input())
 n= int(input())
 while(n>0):
  arr = list(map(int,input().split())
-
- 
+for i in range(0,n)
+ res = arr *arr[i]
+  
