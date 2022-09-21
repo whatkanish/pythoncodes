@@ -1,0 +1,13 @@
+n=(input())
+arr=list(map(int,input().split()))
+min=1000000001
+max=-1
+for i in range(n):
+if(arr[i)>max):
+  print(arr[i]==max)
+ if (arr[i]<min):
+  min=arr[i]
+  print(i)
+ 
+  
+
